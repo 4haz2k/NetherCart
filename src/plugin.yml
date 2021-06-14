@@ -1,0 +1,10 @@
+name: NetherCraft_Cart
+main: me.nethercraft.cart.NetherCraft_Cart
+version: 1.0
+api-version: 1.16
+softdepend: [ MySQL ]
+commands:
+  cart:
+    description: Получение корзины
+    permission: NetherCraft_Cart.cart
+    usage: /cart
